@@ -1,0 +1,34 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gamecontainer{
+    text-align: center;
+}
+
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#restartbtn{
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
